@@ -1,69 +1,49 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/html">
+<html>
 <head>
     <meta charset="utf-8">
-    <title>section,nav,a,footer</title>
-    <base target="_blank">
-    <!-- Загружает все страницы в новые окна браузера --><!-- -->
+    <title>Css les5</title>
+    <style>
+        p {
+            color: mediumvioletred;
+            background: silver
+        }
+
+        h1 {
+            color: red;
+            background: blue;
+        }
+
+        pre {
+            color: green;
+            background: orange;
+        }
+    </style>
 </head>
-<body lang="ru">
-<figure>
-    <img src="imagesxxx..jpg" alt="Просто картинка" title="Какие красивые цветы!" width="163" height="150"/>
-    <figcaption>Красивые цветы</figcaption>
-</figure>
-<!--Тег <img> предназначен для отображения на веб-странице изображений
-в графическом формате GIF, JPEG или PNG.
-Адрес файла с картинкой задаётся через атрибут src.
-Если необходимо, то рисунок можно сделать ссылкой на другой файл,
-поместив тег <img> в контейнер <a>. При этом вокруг изображения отображается рамка,
-которую можно убрать, добавив атрибут border="0" в тег <img>. -->
+<body>
+<h1 align="center">XXXII <cite>Киевский Международный</cite> фестиваль Рекламы</h1>
+<p align="center">пройдет
+    <ins>с <strong>18</strong> по <strong>20 </strong>мая 2015 года</ins>
+</p>
+<!-- тег 'textarea' дозволяє робити рамку  'cols'-  довжина-->
+<textarea name="text" cols="20" rows="5">Hello</textarea>
 
-<header>
-    <a href="labs/index.html">TEG section</a><br> <!--Назад у попередню папку -->
+    <h2>Организаторы Фестиваля</h2>
+
     <nav>
-        <a href="web.html">Курсы по веб-технологиям</a><br>
-        <a href="web-1.html">Курсы по технологиям</a><br>
-        <a href="http://ya.ru">Yandex</a>
-        <a href="http://google.com">Google</a><br><!-- -->
-        <a href="web.html" target="_blank">Курсы по WEB-технологиям </a><br>
-        <a href="web.html" target="_self"> Курсы по IT-технологиям</a><br><!-- self-Загружает страницу в текущее окно. -->
-        <a href="#address" target="_self">Где находится адрес?</a><br>
+        <a href="#m1">
+            <hr>
+            <blockquote style="color:blue;background: yellow">
+                <p>
+                    &copy; Центр обучения &trade;
+                <address>Адрес главного офиса: г.Киев</address>
+                </p></blockquote>
+            <h4>Цель</h4></a>
     </nav>
-</header>
-<section>
-    <h1>Тег <b>section</b></h1>
-    <blockquote>
-        <p> Задаёт раздел документа, может применяться для блока новостей,
-            контактной информации, глав текста, вкладок в
-            диалоговом окне и др. Раздел обычно содержит заголовок.
-            Допускается вкладывать один тег
-            <b>section</b> внутрь другого.
-        </p>
-    </blockquote>
-</section>
-<section>
-    <h1>Тег <b>nav</b></h1>
-    <blockquote>
-        Тег <b>nav</b> задает навигацию по сайту. Если на странице несколько блоков ссылок, то в
-        <b>nav</b> обычно помещают приоритетные ссылки. Также допустимо использовать несколько тегов <b>nav</b> в
-        документе.
-        Запрещается вкладывать <b>nav</b> внутрь <b>address</b>.
-    </blockquote>
-</section>
-<aside><p align="right"><!--Определяет блок сбоку от контента для размещения рубрик, ссылок на архив, меток и другой информации.
-Такой блок, как правило, называется «сайдбар» или «боковая панель». -->
-    Отзывы отсылайте веб-мастеру: <a href="mailto:webmaster@specialist.ru">Webmaster@specialist.ru</a></p></aside>
-<p>&copy; 1991-2013 Центр компьютерного обучения "Специалист"&trade; при МГТУ им. Н.Э.Баумана</p>
-<!-- Тег <footer> задаёт «подвал» сайта или раздела,
-в нём может располагается имя автора, дата документа, контактная и правовая информация.-->
-
-<footer id="address">
-    <hr>
-    <blockquote>
-        <address><b>Адрес главного офиса: г. Москва, Госпитальный переулок, д. 4/6, корпус МГТУ им. Баумана
-            "Стилобат", 2-й
-            этаж.</b></address>
-    </blockquote>
-</footer>
+<hr>
+<blockquote><p>
+    &copy;2015 Web|<sub>DESIGN,</sub>|Group,Kiev
+    <!-- %copy - @ -->
+</blockquote>
 </body>
 </html>
